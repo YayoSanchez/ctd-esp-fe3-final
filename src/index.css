@@ -120,3 +120,61 @@ tr:nth-child(even) {
 .dark > a {
   color: white;
 }
+
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+Link{
+  margin: 10px,20px;
+  font-size: 18px;
+}
+
+.ButtonNavbar{
+  background: transparent;
+  margin-left: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: 0;
+  font-size: 15px;
+  color: black
+  
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  width: 80vw;
+  justify-content: flex-start;
+  background-color: white;
+  color: black;
+}
+
+.navbar.dark {
+  background-color: black;
+  color: white;
+}
+
+
+.navbar.light {
+  background-color: white;
+  color: black;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
