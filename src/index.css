@@ -174,7 +174,12 @@ body.dark {
   color: white;
 }
 
+label{
+  display: block;
+}
 
-
-
-
+span{
+  display: block;
+  color: tomato;
+  font-size: x-small
+}

@@ -5,6 +5,7 @@ import Detail from './Pages/Detail';
 import Home from './Pages/Home';
 import Favs from './Pages/Favs';
 import { ThemeProvider } from './Context/ThemeContext';
+import Form from './Components/Form'
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                         <Route path={"/dentist"} element={<Detail />} />
                         <Route path="/dentist/:id" element={<Detail />} />
                         <Route path={"/favorites"} element={<Favs />} />
+                        <Route path={"/contacto"} element = {<Form/>}/>
                         <Route path={"*"} element={<h1>404 - Page NOT FOUND</h1>} />
                     </Routes>
                 </Router>

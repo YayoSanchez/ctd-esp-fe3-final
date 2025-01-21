@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className={`navbar ${theme}`}>
       <Link to="/favorites">Favs</Link>
       <Link to="/">Home</Link>
-      <Link to="/form">Contacto</Link>
+      <Link to="/contacto">Contacto</Link>
       <button className="ButtonNavbar" onClick={toggleTheme}>
         Change theme
       </button>
